@@ -1,5 +1,6 @@
 Tip：本固件为sdf8057大佬制作的ipq6000固件基础上修改而来，适用于zn m2(改1G内存)，如有问题请勿到原作者处提issue。  
 导航→https://github.com/sdf8057/cloudbuild
+
 ## 原固件属性：
 
 ### ipq6000固件特性：  
@@ -24,7 +25,13 @@ luci-app-ipsec-vpnd
 luci-app-openvpn-server  
 luci-app-zerotier  
 
-## 新增插件列表：  
+## 改动：  
+
+### 默认ip地址：  
+192.168.7.7  
+可在 scripts/diy-part2.sh 内自行设置
+
+### 新增插件列表：  
 iperrf3  
 luci-app-argon-config  
 luci-app-frpc  
