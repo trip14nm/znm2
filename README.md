@@ -35,5 +35,6 @@ luci-app-zerotier
 iperrf3  
 luci-app-argon-config  
 luci-app-frpc  
+luci-app-mwol  
 luci-app-timewol  
 luci-app-vlmcsd  
